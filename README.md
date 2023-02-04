@@ -45,3 +45,8 @@ Another way to visualise our data is by creating a 2D scatterplot to find the re
 <img width="736" alt="Screenshot 2023-02-03 at 19 05 55" src="https://user-images.githubusercontent.com/112814924/216735981-4a74493e-2574-4377-893c-bfd24304d2aa.png">
 
 ## Summary
+
+There are 532 tradable cryptocurrencies in total. The 3D graph allows us to better visualize the results since it is interactive and better shows the distribution of the 4 clusters.
+
+### Resources
+Data: crypto_data.csv
