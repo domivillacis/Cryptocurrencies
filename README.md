@@ -34,19 +34,14 @@ In this step, we created an elbow curve to find the best value for k and accordi
 
 We create a 3D scatterplot to plot the clusters of our dataframe, and by hovering over each data point, we can see the CoinName and the Algorithm data.
 
-<img width="736" alt="scatter_plot" src="https://user-images.githubusercontent.com/112814924/216751694-2207d1a3-1b74-47d9-b172-2fef10e2ba58.png">
-
-3D hvplot 
-
 https://user-images.githubusercontent.com/112814924/216735959-376c71b0-e765-4859-823e-fdf081a838a2.mov
 
-table
+To better visualize the data, we create a table where we can confirm that there are 532 tradable cryptocurrencies.
+
 <img width="882" alt="Screenshot 2023-02-03 at 19 36 25" src="https://user-images.githubusercontent.com/112814924/216735974-17567b6f-4e07-4913-b2fb-dc87a0351402.png">
 
-hvplot
+Another way to visualise our data is by creating a 2D scatterplot to find the relationship between TotalCoinsMined and TotalCoinSupply.
+
 <img width="736" alt="Screenshot 2023-02-03 at 19 05 55" src="https://user-images.githubusercontent.com/112814924/216735981-4a74493e-2574-4377-893c-bfd24304d2aa.png">
-
-
-
 
 ## Summary
