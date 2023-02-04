@@ -4,11 +4,37 @@
 
 This is a very exciting project, as it involves Cryptocurrencies. Due to the huge popularity of Bitcoin, new investors are no longer convinced to invest in this currency as it has become unaffordable.
 
-But just like bitcoin, there are many cryptocurrencies available on the market at affordable prices, and the idea of this project is to discover trends to convince Accountability Accounting, that investing in these new currencies will pay off.
+But just like bitcoin, there are many cryptocurrencies available on the market at affordable prices, and the idea of this project is to discover trends to convince Accountability Accounting, a prominent investment bank, that investing in these new currencies will pay off.
 
 In this analysis we're going to use unsupervised Machine Learning models to analyse a cryptocurrency database and we're going to predict the number of clusters to obtain the results from our data.
 
 ## Results
+
+To carry out this analysis we have  followed these steps:
+
+1. Preprocessing the Data for PCA
+
+To be able to perform PCA, we first preprocessed the dataset. We also used the get_dummies method to convert text features into indicator variables and we standardised the features with StandardScaler().
+
+2. Reducing Data Dimensions Using PCA
+
+We applied Principal Component Analysis (PCA) to reduce dimensions in our dataframe and created a new dataframe to hold the three principal components: PC 1, PC 2, PC 3
+
+<img width="297" alt="Screenshot 2023-02-04 at 01 19 55" src="https://user-images.githubusercontent.com/112814924/216752464-aee7157a-83a0-4847-ae33-ff58b50350af.png">
+
+3. Clustering Cryptocurrencies Using K-mean
+
+In this step, we created an elbow curve to find the best value for k and according to the graph the best value for k is 4.
+
+![elbow_curve](https://user-images.githubusercontent.com/112814924/216752709-5c0ac80b-6ab8-43e8-940c-0fcd3bab648b.png)
+
+ We then applied the k-means algorithm to make predictions of the K clusters for our dataset.
+
+4. Visualizing Cryptocurrencies Results
+
+We create a 3D scatterplot to plot the clusters of our dataframe, and by hovering over each data point, we can see the CoinName and the Algorithm data.
+
+<img width="736" alt="scatter_plot" src="https://user-images.githubusercontent.com/112814924/216751694-2207d1a3-1b74-47d9-b172-2fef10e2ba58.png">
 
 3D hvplot 
 
